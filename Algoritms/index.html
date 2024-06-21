@@ -8,4 +8,42 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      dis
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    #canvas-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #text-container{
+      width: 300px;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div id="canvas-container">
+     <script src="sketch.js"></script>
+  </div>
+  <div id="text-container">
+    <h2>Algoritma izveide attēlam</h2>
+    <p>Pirmkārt, metu 2 kauliņus, sanāk 6 un 4, tātad 10 rūtiņas palabi, otrajā metienā iznāca 5 un 4, tātad 9 rūtiņas lejā. Tālāk, izmantojot vienu kauliņu, laukums tiek aizpildīts no kreisās puses uz labo līdz dotā laukumā beigām.</p>
+     <p>Šis algoritms veido attēlu, balstoties uz kauliņa metēšanu. Katrs 10x9 rezģa lauciņš tiek aizpildīts ar simbolu atkarībā no kauliņas izkrītoša cipara:</p>
+  <ul>
+    <li>1 - līnija</li>
+    <li>2 - divas slīpas līnijas</li>
+    <li>3 - trīs slīpas līnijas</li>
+    <li>4 - divas līnijas preti viena otrai</li>
+    <li>5 - divas līnijas, krustojošas savā starpā</li>
+    <li>6 - kubs</li>
+  </ul>
+  <p>Izmantojot pogu "Enter", algoritms atjaunosies.</p>
+  <p>Algoritms tika veikts, balstoties uz manu loģiku.<p>Priecīgus svētkus un paldies par uzmanību!
+  </p>
+
+  </div>
+</body>
