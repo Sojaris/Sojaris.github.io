@@ -42,4 +42,5 @@ function setup() {
     textSize(65); 
     textAlign(RIGHT, TOP); 
     text('Freedom', width -10, 50);
-    text('Sophia Rimkus', width -2,12
+    text('Sophia Rimkus', width -2,120);
+  }
